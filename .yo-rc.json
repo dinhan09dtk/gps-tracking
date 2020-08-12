@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.karros.challenge"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "gpsTracking",
+    "packageName": "com.karros.challenge",
+    "packageFolder": "com/karros/challenge",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NWVmMjNlYzIzOWJjM2FlNWM0NTAwYTQ3NjE4N2ZlMjM0NTlkYTlkMDU1MTljZDU3NzhmOGJlMGU0NDlkNzdiMDQzNWNjOTE2MTY5NzBiMWQzNTM1NGRhMzRlYTFmMWU4ZGY5NzY3OGMzOGMwOWU1MTA2ZTJmZGU2MTA2MWY4NTI=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1596817265516,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true
+  }
+}
