@@ -98,7 +98,7 @@ public class CommonMapper {
         return null;
     }
 
-    private List<Element> stringListToDocumentList(List<String> objects) {
+    public List<Element> stringListToDocumentList(List<String> objects) {
         if (objects == null) {
             return null;
         }
@@ -113,7 +113,6 @@ public class CommonMapper {
                         Document document = (Document) dBuilder.parse(inputSource);
                         documents.add(document.getDocumentElement());
                     } catch (SAXException | IOException e) {
-                        e.printStackTrace();
                     }
                 }
             });

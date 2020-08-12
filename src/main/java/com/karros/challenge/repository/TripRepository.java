@@ -15,4 +15,6 @@ public interface TripRepository extends JpaRepository<Trip, Long> {
     Page<Trip> findByCreatedById(long createdById, Pageable pageable);
 
     Trip findOneById(long id);
+
+    Trip findFirstByOrderByIdDesc();
 }
