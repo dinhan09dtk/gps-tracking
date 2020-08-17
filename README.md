@@ -50,7 +50,7 @@ API List:
 + /api/trips/:id: get detail trip by id with reponse JSON.
 + /api/trips/:id/xml: get detail trip by id with reponse XML.
 
-+ /api/managemeent/trips: list all trips on system for Role Admin with pageable.
++ /api/management/trips: list all trips on system for Role Admin with pageable.
 
 To start your application in the dev profile, run:
 ```
